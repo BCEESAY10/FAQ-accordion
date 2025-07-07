@@ -372,6 +372,9 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .text-start {
+    text-align: start;
+  }
   .font-WorkSans {
     font-family: var(--font-WorkSans);
   }
@@ -424,6 +427,10 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
   }
   .md\:h-\[250px\] {
     @media (width >= 48rem) {
