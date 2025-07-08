@@ -1,7 +1,7 @@
 const accordionContent = document.querySelectorAll(".accordion-content");
 
 accordionContent.forEach((item) => {
-    let button = item.querySelector("button");
+    const button = item.querySelector("button");
 
     button.addEventListener('mouseenter', () => {
         button.focus();
