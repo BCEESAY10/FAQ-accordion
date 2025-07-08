@@ -21,10 +21,10 @@ const expand = (item) => {
 
     if(!isOpen){
         answer.classList.remove('hidden');
-        icon.src.replace('assets/images/icon-plus.svg', 'assets/images/icon-minus.svg');
+        icon.src = icon.src.replace('assets/images/icon-plus.svg', 'assets/images/icon-minus.svg');
     } else{
         answer.classList.add('hidden');
-        icon.src.replace('assets/images/icon-minus.svg', 'assets/images/icon-plus.svg');
+        icon.src = icon.src.replace('assets/images/icon-minus.svg', 'assets/images/icon-plus.svg');
     }
 
 }
